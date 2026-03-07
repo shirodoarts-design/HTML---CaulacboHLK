@@ -1,1 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: rgb(0, 0, 70);
+    word-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.text-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 42, 61, 0.37)), 
+                url('HLK.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-banner * { 
+    color: white !important; 
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 100;
+    word-spacing: 5px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 50px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.feature-box {
+    border: 1px solid #000046;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-height: 150px;
+}
+
+.section-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px; 
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.section-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.section-text p {
+    max-width: 90%; 
+    line-height: 1.8; 
+}
+
+.section-img { 
+    flex: 1; 
+    text-align: center; 
+}
+
+.section-img img {
+    width: 300px;
+    /*max-width: 300px;*/
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #000046;
+    padding: 40px 10%;
+    margin-top: 50px;
+}
+
+footer * { 
+    color: white !important; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+footer i {
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+hr {
+    border: none;                
+    height: 1px;                 
+    background-color: transparent;
+    
+    box-shadow: 0 0 10px 1px rgba(0, 0, 70, 0.2); 
+    
+    width: 80%;
+    margin: 40px auto;        
+    
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 70, 0.1), transparent);
+}
+
+.section-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;      
+    transition: background-color 0.3s ease; 
+}
+
+
+.section-link:hover {
+    background-color: rgba(64, 210, 255, 0.096); 
+    cursor: pointer;
+}
+
+
+.section-link:hover .section-text h1 {
+    color: #7a3fff;
+}
