@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-<title>HTML, CSS and JavaScript demo</title>
-</head>
-<body>
-    <h1>Trung Học Phổ Thông Chuyên Hoàng Lê Kha</h1>
-<!-- Start your code here -->
-<div>
-<h3>Chủ động</h3> Dám nghĩ - Dám làm - Dám thử thách  <h3>Trách Nhiệm </h3>Ý thức với
-bản thân, tập thể và cộng đồng  <h3>Sáng Tạo</h3> Không ngại khác biệt, không ngừng đổi mới
+    <head>
+        <meta charset="utf-8">
+        <style>
+            * {color: rgb(0, 0, 70); word-spacing: 2px; font-family: 'Times New Roman', Times, serif;}
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="text-banner" style="text-align: center;">
+            <div class="banner-content">
+                <h3>CHÀO MỪNG ĐẾN VỚI</h3>
+                <h1>Trung Học Phổ Thông<br>chuyên<br>Hoàng Lê Kha</h1>
+            </div>
+        </header>
+        <div class="features-container">
+    <div class="feature-box">
+        <p style="font-size: 20px; font-weight: bold;">Chủ Động</p>
+        <p>Dám nghĩ - Dám làm - Dám thử thách</p>
+    </div>
+    <div class="feature-box">
+        <p style="font-size: 20px; font-weight: bold;">Trách Nhiệm</p>
+        <p>Ý thức với bản thân, tập thể và cộng đồng</p>
+    </div>
+    <div class="feature-box">
+        <p style="font-size: 20px; font-weight: bold;">Sáng tạo</p>
+        <p>Không ngại khác biệt, không ngừng đổi mới</p>
+    </div>
 </div>
-<div>
-<div><h2>Bứt phá giới hạn - Khơi nguồn đam mê:</h2></div> Tuổi trẻ là để thử, để sai và để trưởng
-thành. Mỗi câu lạc bộ là một bước tiến gần hơn đến phiên bản tốt nhất của bạn.
+<div class="section-row">
+    <div class="section-text">
+        <h1>Bứt phá giới hạn,<br>Khơi nguồn đam mê</h1>
+        <p>Tuổi trẻ là để thử, để sai và để trưởng
+thành. Mỗi câu lạc bộ là một bước tiến gần hơn đến phiên bản tốt nhất của bạn</p>
+    </div>
+    <div>
+        <img src="Minhhoa.jpg" style="width: 300px;">
+    </div>
 </div>
-<img src="">
-<div>
-    <h2>
-CLB Âm Nhạc (HMIC):
+<h2 style="text-align: center; font-size: 150%;">
+    Các CLB được đề xuất
 </h2>
-<p>Là nơi dành cho những tâm hồn yêu âm nhạc, bao gồm các
-hoạt động: hát, nhảy, piano, organ, trình diễn,…
-</p>
+<hr>
+<a href="CLB1.html" class="section-link">
+        <div class="section-row">
+    <div class="section-text">
+        <h1>CLB Âm Nhạc<br>(HMIC)</h1>
+        <p>Là nơi dành cho những tâm hồn yêu âm nhạc, bao gồm các hoạt động: hát, nhảy, piano, organ, trình diễn,…</p>
+    </div>
+   
+    <div class="section-img">
+        <img src="CLBAN.jpg" alt="Music Club">
+    </div>
 </div>
-<img src="">
-<div>
-    <h2>
-CLB Mỹ Thuật (Hatelier):
-</h2>
-<p>
- CLB Mỹ Thuật không chỉ giúp phát triển tư duy thẩm mỹ
-mà còn nuôi dưỡng sự kiên nhẫn, tỉ mỉ và khả năng sáng tạo.
-</p>
+</a>
+<a href="CLB2.html" class="section-link">
+<div class="section-row reverse">
+    <div class="section-text">
+        <h1>CLB Mỹ Thuật<br>(Hatelier)</h1>
+        <p>CLB Mỹ Thuật không chỉ giúp phát triển tư duy thẩm mỹ mà còn nuôi dưỡng sự kiên nhẫn, tỉ mỉ và khả năng sáng tạo.</p>
+    </div>
+    <div class="section-img">
+        <img src="CLBMT.jpg" alt="Art Club">
+    </div>
 </div>
-<img src="">
-
-<div>
-    <h3>
-        Các trang chính:
-    </h3>
-<p>
-    Trang chủ <br> Câu lạc bộ Âm Nhạc <br> Câu lạc bộ Mỹ Thuật
-</p>
-</div>
-<div>
-    <h3> Địa chỉ: </h3>
-    <p>368, đường Trường Chinh, Phường 3, Thành Phố Tây Ninh, Tỉnh Tây Ninh</p>
-</div>
-<!-- End your code here -->
-</body>
+</a>
+    <footer>
+    <h2>Thông tin liên lạc</h2>
+    <div class="footer-content">
+        <p><i class="fa-solid fa-location-dot"></i> 368 Trường Chinh, Khu phố 6, Phường Tân Ninh, Tỉnh Tây Ninh</p>
+        <p><i class="fa-solid fa-phone"></i> 0276.3822860</p>
+        <a href="mailto:email@hlk.com" style="text-decoration: none;">
+        <p><i class="fa-solid fa-envelope"></i> email@hlk.com</p>
+        </a>
+    </div>
+</footer>
+    </body>
 </html>
